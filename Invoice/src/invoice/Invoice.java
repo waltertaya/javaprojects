@@ -8,8 +8,8 @@ public class Invoice {
 		int unitPrice = 20;
 		float amount = (float)Qty * (float)unitPrice;
 		float total = amount;
-		String line = new String(new char[25]).replace('\0', '+');
-		System.out.println(line + "Adamson Computer Ltd" + line + "++");
+		String line = new String(new char[25]).replace('\0', '*');
+		System.out.println(line + "Adamson Computer Ltd" + line + "**");
 		
 		System.out.println("#99 ACS Building Gilmore Ave. New Mla.. Quezon City  * Tel. No: 123-4567");
 		System.out.println("                 VAT REG. TIN 098-765-4321-0000");
