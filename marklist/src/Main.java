@@ -49,7 +49,7 @@ public class Main {
         System.out.println(line);
         System.out.println("ROLL\tNAME\tMARK1\tMARK2\tMARK3\tTOTAL\tRESULT\tAverage\tGRADE");
 
-        // Create the table
+        // Create the tables for the students
         for (int i = 0; i < 4; i++){
             System.out.print((i + 100) + "\t\t" + names[i] + "\t");
             for (int j = 0; j < 3;j++){
