@@ -29,7 +29,7 @@ class SavingsAccount extends BankAccount {
         System.out.println("Deposited: $" + amount);
     }
     public void displayBalance(){
-        System.out.println("Account Number: " + acNo + "Balance: $" + acBal);
+        System.out.println("Account Number: " + acNo + "\tBalance: $" + acBal);
     }
 }
 class CurrentAccount extends BankAccount {
@@ -44,7 +44,7 @@ class CurrentAccount extends BankAccount {
         System.out.println("Deposited: $" + amount);
     }
     public void displayBalance(){
-        System.out.println("Account Number: " + acNo + "Balance: $" + acBal);
+        System.out.println("Account Number: " + acNo + "\tBalance: $" + acBal);
     }
 }
 
